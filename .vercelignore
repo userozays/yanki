@@ -1,0 +1,8 @@
+src
+tools
+shots
+package.json
+README.md
+LICENSE
+.gitignore
+.env*

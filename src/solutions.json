@@ -1,0 +1,321 @@
+{
+ "ilk-adim": {
+  "id": "ilk-adim",
+  "par": 1,
+  "steps": 6,
+  "moves": 6,
+  "inputs": [
+   "RRDRRR"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": true,
+    "states": 13,
+    "aborted": false
+   }
+  ],
+  "ms": 1
+ },
+ "yanki": {
+  "id": "yanki",
+  "par": 2,
+  "steps": 6,
+  "moves": 10,
+  "inputs": [
+   "RRRR",
+   "RRRDDD"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 9,
+    "aborted": false
+   },
+   {
+    "K": 2,
+    "solvable": true,
+    "states": 88,
+    "aborted": false
+   }
+  ],
+  "ms": 1
+ },
+ "sandik": {
+  "id": "sandik",
+  "par": 1,
+  "steps": 8,
+  "moves": 8,
+  "inputs": [
+   "RDRRRDDD"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": true,
+    "states": 195,
+    "aborted": false
+   }
+  ],
+  "ms": 0
+ },
+ "zamanlama": {
+  "id": "zamanlama",
+  "par": 2,
+  "steps": 8,
+  "moves": 11,
+  "inputs": [
+   "RR..L",
+   "DDRRRRRR"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 5,
+    "aborted": false
+   },
+   {
+    "K": 2,
+    "solvable": true,
+    "states": 93,
+    "aborted": false
+   }
+  ],
+  "ms": 1
+ },
+ "ritim": {
+  "id": "ritim",
+  "par": 2,
+  "steps": 7,
+  "moves": 12,
+  "inputs": [
+   "RRRRRRR",
+   "LLRLR"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 6,
+    "aborted": false
+   },
+   {
+    "K": 2,
+    "solvable": true,
+    "states": 93,
+    "aborted": false
+   }
+  ],
+  "ms": 0
+ },
+ "kopru": {
+  "id": "kopru",
+  "par": 2,
+  "steps": 7,
+  "moves": 14,
+  "inputs": [
+   "RRRRURR",
+   "RRRRRRD"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 0,
+    "trivial": true
+   },
+   {
+    "K": 2,
+    "solvable": true,
+    "states": 497,
+    "aborted": false
+   }
+  ],
+  "ms": 3
+ },
+ "guven": {
+  "id": "guven",
+  "par": 2,
+  "steps": 7,
+  "moves": 10,
+  "inputs": [
+   ".LLLL",
+   "RR.RRDD"
+  ],
+  "blind": true,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 6,
+    "aborted": false
+   },
+   {
+    "K": 2,
+    "solvable": true,
+    "states": 88,
+    "aborted": false
+   }
+  ],
+  "ms": 1
+ },
+ "kapi-tutan": {
+  "id": "kapi-tutan",
+  "par": 2,
+  "steps": 10,
+  "moves": 16,
+  "inputs": [
+   "..RRRRRDDR",
+   "RRRRRD..DL"
+  ],
+  "blind": true,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 0,
+    "trivial": true
+   },
+   {
+    "K": 2,
+    "solvable": true,
+    "states": 121,
+    "aborted": false
+   }
+  ],
+  "ms": 0
+ },
+ "kargo": {
+  "id": "kargo",
+  "par": 2,
+  "steps": 14,
+  "moves": 24,
+  "inputs": [
+   "RRR....DDLLDDR",
+   "RDRRRRLLDLLDDL"
+  ],
+  "blind": true,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 0,
+    "trivial": true
+   },
+   {
+    "K": 2,
+    "solvable": true,
+    "states": 3337,
+    "aborted": false
+   }
+  ],
+  "ms": 10
+ },
+ "zincir": {
+  "id": "zincir",
+  "par": 3,
+  "steps": 8,
+  "moves": 16,
+  "inputs": [
+   "RRRRRRRR",
+   "RRRRDD",
+   "LL"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 8,
+    "aborted": false
+   },
+   {
+    "K": 2,
+    "solvable": false,
+    "states": 46,
+    "aborted": false
+   },
+   {
+    "K": 3,
+    "solvable": true,
+    "states": 1258,
+    "aborted": false
+   }
+  ],
+  "ms": 4
+ },
+ "bekci": {
+  "id": "bekci",
+  "par": 3,
+  "steps": 11,
+  "moves": 24,
+  "inputs": [
+   "....RRR",
+   ".RRRRRRRRRR",
+   "RRRRRRRRRDD"
+  ],
+  "blind": false,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 0,
+    "trivial": true
+   },
+   {
+    "K": 2,
+    "solvable": false,
+    "states": 139,
+    "aborted": false
+   },
+   {
+    "K": 3,
+    "solvable": true,
+    "states": 1999,
+    "aborted": false
+   }
+  ],
+  "ms": 5
+ },
+ "koro": {
+  "id": "koro",
+  "par": 3,
+  "steps": 8,
+  "moves": 18,
+  "inputs": [
+   "....LLLL",
+   "..UUUUUU",
+   "RRRRRRRR"
+  ],
+  "blind": true,
+  "proof": [
+   {
+    "K": 1,
+    "solvable": false,
+    "states": 0,
+    "trivial": true
+   },
+   {
+    "K": 2,
+    "solvable": false,
+    "states": 0,
+    "trivial": true
+   },
+   {
+    "K": 3,
+    "solvable": true,
+    "states": 4243,
+    "aborted": false
+   }
+  ],
+  "ms": 11
+ }
+}

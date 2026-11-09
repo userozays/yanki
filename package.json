@@ -1,0 +1,17 @@
+{
+  "name": "yanki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yankı: kendi geçmişinle iş birliği yaptığın zaman döngüsü bulmacası. Tek dosya, bağımlılık yok.",
+  "homepage": "https://yanki-eight.vercel.app",
+  "repository": "github:userozays/yanki",
+  "license": "MIT",
+  "scripts": {
+    "solve": "node tools/solver.js",
+    "build": "node tools/solver.js && node tools/build.js",
+    "test": "node tools/e2e.js",
+    "test:live": "node tools/e2e.js --live",
+    "gen": "node tools/gentest.js 1 8",
+    "shots": "node tools/shots.js"
+  }
+}
