@@ -6,6 +6,9 @@
   "homepage": "https://yanki-eight.vercel.app",
   "repository": "github:userozays/yanki",
   "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "solve": "node tools/solver.js",
     "build": "node tools/solver.js && node tools/build.js",
